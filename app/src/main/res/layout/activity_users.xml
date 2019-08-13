@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context="wallpl.example.vvvlad.walltherm.Users">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/liniearAdmin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="10sp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="Aktywny"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="NIE AKTYWNY"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/dzialusra"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:textSize="16dp"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="działania użytkownika"
+                        android:textColor="@color/colorWhite" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="Oczekujący"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite"
+                        tools:ignore="ObsoleteLayoutParam" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="Punkty"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/komunikaty"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="5sp"
+                        android:layout_weight="1"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="Komunikaty"
+                        android:textSize="16dp"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_weight="5"-->
+            <!--android:gravity="center"-->
+            <!--android:orientation="vertical"/>-->
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

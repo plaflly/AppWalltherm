@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/PunktyUsers"
+    android:orientation="vertical"
+    tools:context="wallpl.example.vvvlad.walltherm.PunktyUsers"
+    android:background="@drawable/tlo">
+
+    <EditText
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:id="@+id/edittextuser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/punktyUsersRecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="4dp"
+        android:scrollbars="vertical"/>
+
+</LinearLayout>

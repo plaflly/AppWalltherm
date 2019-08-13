@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Walltherm PL</string>
+    <string name="mail">Mail</string>
+    <string name="rejestracjia">REJESTRACJA</string>
+    <string name="firma">Firma</string>
+    <string name="nip">NIP</string>
+    <string name="telefon">Telefon</string>
+    <string name="zarejestruj_si">Zarejestruj się</string>
+    <string name="button">Button</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="miasto">Miasto</string>
+    <string name="ulica_domu">Ulica/ № Domu</string>
+    <string name="_1">1.1</string>
+    <string name="acept">Acept</string>
+    <string name="delite">Delite</string>
+    <string name="Admin">Admin@******.com</string>
+    <string name="emailforgmail">l******@gmail.com</string>
+    <string name="passforgmail">123123*******123123</string>
+
+    <string-array name="Województwo">
+        <item>Wybierz województwo</item>
+        <item>Dolnośląskie</item>
+        <item>Kujawsko-pomorskie</item>
+        <item>Lubelskie</item>
+        <item>Lubuskie</item>
+        <item>Łódzkie</item>
+        <item>Małopolskie</item>
+        <item>Mazowieckie</item>
+        <item>Opolskie</item>
+        <item>Podkarpackie</item>
+        <item>Podlaskie</item>
+        <item>Pomorskie</item>
+        <item>Śląskie</item>
+        <item>Świętokrzyskie</item>
+        <item>Warmińsko-mazurskie</item>
+        <item>Wielkopolskie</item>
+        <item>Zachodniopomorskie</item>
+    </string-array>
+
+    <string-array name="Strefy">
+        <item>I Strefa (20 W/m³)</item>
+        <item>II Strefa (21 W/m³)</item>
+        <item>III Strefa (22 W/m³)</item>
+        <item>IV Strefa (23 W/m³)</item>
+        <item>V Strefa (24 W/m³)</item>
+        <item>Wyświetl mapę ze strefami</item>
+    </string-array>
+
+    <string name="podpis">
+        \n
+        \n
+        \n
+        \n
+        \n         -------------------------------------------------------------
+        \n         W razie potrzeby możesz skontaktowac sie z administratorem:
+        \n         Telefon: 503-***-501
+        \n         Telefon: 794-***-139
+        \n         Email: Je***@****therm.pl
+    </string>
+</resources>

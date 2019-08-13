@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:id="@+id/activity_mail_send"
+    android:padding="16dp"
+    android:background="@drawable/tlo">
+    <TextView
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etRecipient"
+        android:hint="To"
+        android:inputType="textEmailAddress"
+        android:imeOptions="actionNext"
+        android:layout_marginBottom="16dp"
+        />
+        <EditText
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="Wiadomość"
+        android:gravity="start"
+        android:id="@+id/etContent"
+        android:layout_width="match_parent"
+        android:imeOptions="actionDone"
+        android:layout_height="300dp" />
+
+    <Button
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorOrange"
+        android:text="WYślij"
+        android:textSize="25dp"
+        android:padding="10sp"
+        android:textColor="#fff"
+        android:layout_marginBottom="16dp"/>
+
+
+</LinearLayout>

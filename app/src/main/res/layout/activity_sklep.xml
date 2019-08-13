@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:id="@+id/sklep"
+    tools:context="wallpl.example.vvvlad.walltherm.Sklep">
+        <LinearLayout
+            android:id="@+id/sklepLay"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:id="@+id/texter"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorBlack"
+                android:textSize="20dp"/>
+
+            <ExpandableListView
+                android:id="@+id/lvExpl"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="5dp"
+                android:layout_marginStart="5dp">
+            </ExpandableListView>
+
+        </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

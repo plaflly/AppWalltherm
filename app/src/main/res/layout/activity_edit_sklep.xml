@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:orientation="vertical"
+    tools:context="wallpl.example.vvvlad.walltherm.EditSklep"
+    android:id="@+id/editSklep">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="  " />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Województwo:" />
+
+
+            <Spinner
+            android:id="@+id/wojewodstwoAddSklep"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Wojewodstwo" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Miasto:" />
+
+            <EditText
+                android:id="@+id/miasto_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Ulica:" />
+
+            <EditText
+                android:id="@+id/ulica_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Firma:" />
+
+            <EditText
+                android:id="@+id/firma_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Telefon 1:" />
+
+            <EditText
+                android:id="@+id/telefon_edit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Telefon 2:" />
+
+            <EditText
+                android:id="@+id/telefon_edit1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Telefon 3:" />
+
+            <EditText
+                android:id="@+id/telefon_edit2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_margin="5sp"
+                    android:id="@+id/zapisz_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Zapisz"
+                    android:background="@color/colorOrange"
+                    android:textColor="@color/colorWhite"/>
+
+                <Button
+                    android:layout_margin="5sp"
+                    android:id="@+id/delite_edit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Usuń"
+                    android:background="@color/colorOrange"
+                    android:textColor="@color/colorWhite"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

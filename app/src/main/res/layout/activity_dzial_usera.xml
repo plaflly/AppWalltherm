@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/dzialUsera"
+    tools:context="wallpl.example.vvvlad.walltherm.DzialUsera">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10sp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <android.support.v7.widget.RecyclerView
+                android:layout_weight="1"
+                android:id="@+id/dzialuserrecycler"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+               />
+
+            <LinearLayout
+                android:layout_weight="0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:text="Usun wszystko"
+                    android:id="@+id/deliteDzial"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@color/colorRed"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/doDzial"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:textColor="@color/colorWhite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="zapisane"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpl.example.vvvlad.walltherm.KorzyscAdmin"
+    android:id="@+id/korzyscAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5sp">
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:layout_weight="1"
+            android:id="@+id/pdfZaletyAdmin"
+            android:layout_width="match_parent"
+            android:hardwareAccelerated="false"
+            android:layout_height="match_parent" />
+        <Button
+            android:layout_weight="7"
+            android:id="@+id/zaletyZmien"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5sp"
+            android:background="@color/colorOrange"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Zmień"
+            android:textColor="@color/colorWhite"
+            />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

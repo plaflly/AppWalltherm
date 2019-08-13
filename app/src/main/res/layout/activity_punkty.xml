@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context="wallpl.example.vvvlad.walltherm.Punkty">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_weight="1"
+                    android:id="@+id/listaPunktBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16dp"
+
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Lista Punktów"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/sprzedazBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Sprzedaz"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/katalodNadrodBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="10sp"
+                    android:layout_weight="1"
+                    android:textSize="16dp"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="katalog nagrod"
+                    android:textColor="@color/colorWhite" />
+
+                <Button
+                    android:id="@+id/obraliNagrodeBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                   android:layout_weight="1"
+                    android:layout_margin="10sp"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Wybrali nagrode"
+                    android:textSize="16dp"
+                    android:textColor="@color/colorWhite" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

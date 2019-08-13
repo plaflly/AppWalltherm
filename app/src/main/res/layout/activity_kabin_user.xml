@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kabinUser"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context="wallpl.example.vvvlad.walltherm.KabinUser">
+
+    <LinearLayout
+        android:id="@+id/layoutUserKabin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+               >
+
+                <Button
+                    android:layout_margin="5sp"
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:layout_weight="1"
+                    android:text="Oblicz ilość walltherma "
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:layout_margin="5sp"
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/colorGreen"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:layout_weight="1"
+                    android:text="Katalog nagród"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:layout_margin="5sp"
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorGreen"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Ile masz punktów"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:layout_margin="5sp"
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@color/colorGreen"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Karty techniczne"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="4"
+            android:gravity="bottom"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button02"
+                    android:layout_width="200dp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:textColor="@color/colorWhite"
+                    android:text="moje dane"
+                    android:textSize="16dp"
+                    android:layout_marginBottom="15sp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="200dp"
+                    android:layout_height="60sp"
+                    android:layout_gravity="center"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:textColor="@color/colorWhite"
+                    android:text="wyloguj"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="5"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/resetPass"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="20sp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="center"
+                    android:text="Zmień hasło"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/layoutForRecyclerObraliNagrode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/emailUserForRecyclerObraliNagrode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2sp"
+                android:layout_weight="1"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:gravity="center"
+                android:text="Email"
+                android:textSize="18sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="              " />
+
+            <Button
+                android:id="@+id/douzytkownikaForRecyclerObraliNagrode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@color/colorOrange"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Do użytkownika"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:orientation="horizontal"
+            android:padding="5sp">
+
+            <ImageView
+                android:id="@+id/imageForRecyclerObraliNagrode"
+                android:layout_width="match_parent"
+                android:layout_height="120sp"
+                android:layout_weight="3" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nazwaForRecyclerObraliNagrode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="5sp"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:gravity="center"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/opisNagrodyForRecyclerObraliNagrode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="5sp"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:id="@+id/timeNagrodyForRecyclerObraliNagrode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5sp"
+                        android:layout_marginRight="5sp"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/punktyNagrodyForRecyclerObraliNagrode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@color/colorWhite"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="right"
+                    android:textColor="@color/colorRed2"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/naliczycForRecyclerObraliNagrode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@color/colorGreen"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="naliczyć"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@assets/Signika-SemiBold.ttf" />
+
+            <Button
+                android:id="@+id/usunForRecyclerObraliNagrode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@color/colorGreen"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Usun"
+                android:textColor="@color/colorWhite" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

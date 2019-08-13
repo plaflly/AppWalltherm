@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutmodul"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5sp"
+    android:weightSum="2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/emailUserModul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="2sp"
+            android:layout_weight="1"
+            android:text="Email"
+            android:textSize="15sp" />
+
+        <Button
+            android:background="@color/colorGreen"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/douzytkownika"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Do użytkownika" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Moduły"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Punkty"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/nazwaModul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Nazwa "
+            android:gravity="right"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/iloscmod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <EditText
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/iloscPunktow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:inputType="number" />
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/iloscPunktowZaModul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/timemod"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14dp" />
+
+    </LinearLayout>
+    <EditText
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:id="@+id/textDoUrzytkownika"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:hint="Text"/>
+
+    <TextView
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:id="@+id/textModul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp" />
+
+    <TextView
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:id="@+id/statusmod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:background="@color/colorOrange"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5sp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/naliczyc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="nalicz" />
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <Button
+            android:background="@color/colorOrange"
+            android:textColor="@color/colorWhite"
+            android:layout_margin="5sp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/usun"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Usuń" />
+
+    </LinearLayout>
+
+</LinearLayout>

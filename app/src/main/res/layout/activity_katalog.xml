@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:id="@+id/aktivityKatalog">
+
+    <TextView
+        android:id="@+id/textKatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        android:gravity="center"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp" />
+
+    <com.github.barteksc.pdfviewer.PDFView
+        android:id="@+id/pdfViewkatalAdm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1" />
+
+    <Button
+        android:id="@+id/pdfDelite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorRed"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:text="usuń"
+        android:textColor="@color/colorWhite"
+        android:textSize="14dp" />
+</LinearLayout>

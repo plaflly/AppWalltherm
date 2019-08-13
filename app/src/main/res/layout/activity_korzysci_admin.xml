@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpl.example.vvvlad.walltherm.KorzysciAdmin">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="@color/colorOrange"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:text="Korzysci i zalety WT"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="10sp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/instalatorAdmin"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5sp"
+                    android:layout_margin="5sp"
+                    android:background="@color/colorOrange"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="instalator"
+                    />
+                <Button
+                    android:id="@+id/deweloperAdmin"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5sp"
+                    android:layout_margin="5sp"
+                    android:background="@color/colorOrange"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="Deweloper"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/architektAdmin"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5sp"
+                    android:layout_margin="5sp"
+                    android:background="@color/colorOrange"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="Architekt"
+                    />
+                <Button
+                    android:id="@+id/klientAdmin"
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:padding="5sp"
+                    android:layout_margin="5sp"
+                    android:background="@color/colorOrange"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="center"
+                    android:textSize="20sp"
+                    android:text="Klient indywidualny"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

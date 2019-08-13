@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context="wallpl.example.vvvlad.walltherm.Registration1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="35sp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="@string/rejestracjia"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/et_email_1"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/mail"
+            android:inputType="textEmailAddress" />
+
+
+        <EditText
+            android:id="@+id/et_1"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/imie"
+            android:inputType="" />
+
+        <EditText
+            android:id="@+id/et_2"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/nazwisko"
+            android:inputType="" />
+
+        <EditText
+            android:id="@+id/et_3"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:hint="@string/firma"
+            android:inputType="" />
+
+        <EditText
+            android:id="@+id/et_4"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/miasto"
+            android:inputType="" />
+
+        <EditText
+            android:id="@+id/et_5"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/ulica_domu"
+            android:inputType="" />
+
+        <EditText
+            android:id="@+id/et_6"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/nip"
+            android:inputType="text|number" />
+
+        <EditText
+            android:id="@+id/et_7"
+            android:layout_width="260dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15sp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:hint="@string/telefon"
+            android:inputType="text|number" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="25sp"
+                    android:layout_marginRight="25sp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="25sp"
+                    android:paddingRight="25sp">
+
+                    <TextView
+                        android:id="@+id/log1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="left"
+                        android:textSize="15sp" />
+
+                    <EditText
+                        android:id="@+id/log2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:inputType="number"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/checkBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15sp"
+                        android:layout_marginLeft="25sp"
+                        android:layout_marginRight="25sp"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:paddingTop="10sp"
+                        android:text="Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z RODO od dnia 25 maja 2018."
+                        android:textSize="12dp" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/prawa"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15sp"
+                        android:background="@color/colorGreen"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:padding="10sp"
+                        android:text="Regulamin"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/btn_registration"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:padding="10sp"
+                        android:text="@string/zarejestruj_si"
+                        android:textColor="@color/colorWhite" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+
+</android.support.constraint.ConstraintLayout>

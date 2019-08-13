@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:label="@string/app_name"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+    android:id="@+id/login">
+
+
+    <LinearLayout
+        android:padding="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="LOGOWANIE"
+            android:textColor="@color/colorBlack"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:id="@+id/text_login"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Login:"
+                android:paddingStart="5sp"
+                android:textColor="@color/colorBlack"
+                android:textSize="23dp" />
+
+            <EditText
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:paddingStart="5sp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_marginStart="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:paddingStart="5sp"
+                android:id="@+id/text_password"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasło:"
+                android:textColor="@color/colorBlack"
+                android:textSize="23dp" />
+
+            <EditText
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:paddingStart="5sp"
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp" />
+
+        <Button
+            android:padding="10sp"
+            android:background="@color/colorGreen"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/btn_sign_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Zaloguj się" />
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="45sp"
+            android:textSize="20sp"
+            android:text="Zapomniałeś hasła?"
+            android:textColor="@color/colorPrimaryDark"
+            android:visibility="invisible" />
+
+
+        <Button
+            android:background="@color/colorOrange"
+            android:textColor="@color/colorWhite"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/btn_loga"
+            android:layout_width="237sp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="10sp"
+            android:layout_marginTop="30dp"
+            android:text="Zapisz się jako PROFESJONALISTA ( OTRZYMASZ NAGRODĘ PRZY PIERWSZYM ZAKUPIE )" />
+
+
+    </LinearLayout>
+</LinearLayout>

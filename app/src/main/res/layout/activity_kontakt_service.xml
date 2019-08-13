@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpl.example.vvvlad.walltherm.Servise.KontaktService"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:id="@+id/kontaktService"
+    android:background="@drawable/tlo">
+    <TextView
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Kontakt Serwis:" />
+
+    <TextView
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="Message"
+        android:gravity="start"
+        android:textColor="@color/colorBlack"
+        android:id="@+id/kontakt"
+        android:layout_width="match_parent"
+        android:imeOptions="actionDone"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

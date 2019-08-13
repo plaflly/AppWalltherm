@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="25sp"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/buttonSklepTel1"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Telefon 1"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:textSize="17sp"
+            android:textColor="@color/colorGreen3"
+            android:background="@color/colorWhite"/>
+        <Button
+            android:id="@+id/buttonSklepTel2"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Telefon 2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:textSize="17sp"
+            android:textColor="@color/colorGreen3"
+            android:background="@color/colorWhite"/>
+        <Button
+            android:id="@+id/buttonSklepTel3"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Telefon 3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="40sp"
+            android:textSize="17sp"
+            android:textColor="@color/colorGreen3"
+            android:background="@color/colorWhite"/>
+    </LinearLayout>
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

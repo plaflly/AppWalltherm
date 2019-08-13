@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="wallpl.example.vvvlad.walltherm">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:name="wallpl.example.vvvlad.walltherm.App"
+        android:allowBackup="true"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+        android:windowSoftInputMode="adjustPan|adjustResize|stateHidden"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ActivityLogin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Registration1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.PoliczWall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Users"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KabinAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KabinUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.UsersAkt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.UsersAkt2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.MailSend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Sklep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.SklepForAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.EditSklep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.AddSklep"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Korzyszc"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KorzyszcEdit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Servise.KontaktService"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Servise.KontaktSerEddit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.RuchApp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.PomocUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.RuchUsers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ReglaminAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ObliczIlosczWall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ObliceniaWall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ListKatalogAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Katalog"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ListaKatalogUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.IleMaszPunktuw"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.PunktyList"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Punkty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Sprzedaz"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KatalogNagrodAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.EditNagroda"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KatalogNagrodDlaUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.NagrodaDlaUser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.ObraliNagrode"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Korzysci"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KorzysciAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.KorzyscAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Web"
+            android:screenOrientation="portrait" />
+
+        <receiver android:name="wallpl.example.vvvlad.walltherm.reciever.NetworkStateChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.con.CANNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="wallpl.example.vvvlad.walltherm.MyAndroidFirebaseMsgService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <service android:name="wallpl.example.vvvlad.walltherm.MyAndroidFirebaseInstanceIdService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Testtt"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.WybraliNagrParth2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.DzialUsera"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.PunktyUsers"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.DzialUser1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.DzialUseraZapisane"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.Komunikaty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.AdminEdit"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="wallpl.example.vvvlad.walltherm.DaneOsobowe"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

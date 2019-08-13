@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpl.example.vvvlad.walltherm.PunktyList"
+    android:id="@+id/punktyList"
+    android:background="@drawable/tlo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorBlack"
+            android:text="Lista punktuw"
+            android:gravity="center"
+            android:textSize="15sp"/>
+        <Button
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:background="@drawable/button_buner_press"
+            android:id="@+id/dodacPunkty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"/>
+
+        <ListView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:id="@+id/listviewPunktList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+
+
+
+</android.support.constraint.ConstraintLayout>

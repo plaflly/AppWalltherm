@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/kabinAdmin"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context="wallpl.example.vvvlad.walltherm.KabinAdmin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_margin="5sp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/liniearAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="użytkownicy"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="gdzie kupić"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="RUCH APLIKACJI"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Korzyści"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:orientation="vertical"
+               >
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="SERWIS"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="kto zamontuje"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="WEJDŹ JAKO użytkownik"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5sp"
+                    android:layout_weight="1"
+                    android:background="@color/colorOrange"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="PDF"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16dp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_gravity="center"
+                android:id="@+id/button7"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:background="@color/colorGreen"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="wyloguj"
+                android:textColor="@color/colorWhite"
+                android:textSize="16dp"
+                android:textStyle="normal|bold" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+<Button
+    android:id="@+id/toEditAdmin"
+    android:background="@drawable/button_main_baner"
+    android:layout_width="75sp"
+    android:text="Admin"
+    android:textColor="@color/colorGreen"
+    android:layout_height="wrap_content"
+    />
+</android.support.constraint.ConstraintLayout>

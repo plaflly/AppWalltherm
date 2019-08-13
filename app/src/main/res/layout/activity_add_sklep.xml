@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    android:orientation="vertical"
+    tools:context="wallpl.example.vvvlad.walltherm.AddSklep"
+    android:id="@+id/addSklep"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@assets/Signika-SemiBold.ttf" />
+
+    <TextView
+        android:id="@+id/titleAddSklep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:text="TEXT"
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Spinner
+        android:id="@+id/wojewodstwoAddSklep"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:hint="Wojewodstwo" />
+
+
+    <EditText
+        android:id="@+id/miastoAddSklep"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_above="@+id/et_2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="-147dp"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="Miasto"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/ulicaAddSklep"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/et_1"
+        android:layout_gravity="center"
+        android:layout_marginTop="147dp"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="Ulica"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/firmaAddSklep"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_2"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="@string/firma"
+        android:inputType="" />
+
+    <EditText
+        android:id="@+id/telefonAddSklep"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_3"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="@string/telefon"
+        android:inputType="" />
+    <EditText
+        android:id="@+id/telefonAddSklep1"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_3"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="@string/telefon"
+        android:inputType="" />
+    <EditText
+        android:id="@+id/telefonAddSklep2"
+        android:layout_width="260dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/et_3"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:hint="@string/telefon"
+        android:inputType="" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp" />
+
+
+    <Button
+        android:id="@+id/btn_add_sklep"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:background="@color/colorOrange"
+        android:fontFamily="@assets/Signika-SemiBold.ttf"
+        android:text="Zapisz"
+        android:textColor="@color/colorWhite" />
+
+
+</LinearLayout>

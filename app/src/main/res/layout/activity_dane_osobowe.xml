@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/DaneOsobowe"
+    tools:context="wallpl.example.vvvlad.walltherm.DaneOsobowe">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Email: " />
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Imię: " />
+
+        <TextView
+            android:id="@+id/name1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Imie"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Nazwisko: " />
+
+        <TextView
+            android:id="@+id/surname1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Nazwisko"
+            android:inputType="" />
+
+        <TextView
+            android:id="@+id/textView31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Firma: " />
+
+        <TextView
+            android:id="@+id/firma1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Firma"
+            android:inputType="" />
+
+        <TextView
+            android:id="@+id/textView41"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="NIP: " />
+
+        <TextView
+            android:id="@+id/nip1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="NIP"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/textView51"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Miasto: " />
+
+        <TextView
+            android:id="@+id/miasto1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Miasto"
+            android:inputType="" />
+
+        <TextView
+            android:id="@+id/textView61"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Ulica: " />
+
+        <TextView
+            android:id="@+id/ulica1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Ulica"
+            android:inputType="" />
+
+        <TextView
+            android:id="@+id/textView71"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:text="Telefon: " />
+
+        <TextView
+            android:id="@+id/telefon1"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:hint="Telefon"
+            android:inputType="number" />
+
+        <Button
+            android:id="@+id/usunkonto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:background="@color/colorRed"
+            android:textColor="@color/colorWhite"
+            android:text="Usuń konto"
+            />
+    </LinearLayout>
+    </ScrollView>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="wallpl.example.vvvlad.walltherm.IleMaszPunktuw"
+    android:id="@+id/ileMaszPunktuw"
+    android:background="@drawable/tlo">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:id="@+id/userMail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textSize="14dp" />
+
+            <TextView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:id="@+id/user_punkt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/colorRed"
+                android:textSize="20dp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:fontFamily="@assets/Signika-SemiBold.ttf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55sp"
+            android:gravity="center"
+            android:text="Aby dodać punkty, możesz wpisać liczbę sprzedanych modułów!"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/colorBlack"/>
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spiner"
+                    android:layout_width="match_parent"
+                    android:layout_height="25sp">
+                </android.support.v7.widget.AppCompatSpinner>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="1sp"
+                    android:background="@color/colorBlack"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20sp"
+                android:orientation="horizontal">
+
+
+                <EditText
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:id="@+id/iloscModul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:hint="Ile modułów"
+                    android:gravity="center"
+                    android:inputType="number"/>
+
+                <Button
+                    android:background="@color/colorGreen"
+                    android:textColor="@color/colorWhite"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:id="@+id/dodacModul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:text="Ok" />
+
+            </LinearLayout>
+
+            <TextView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Moduły:"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:layout_marginStart="5sp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:id="@+id/recyclerFormodulUser"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

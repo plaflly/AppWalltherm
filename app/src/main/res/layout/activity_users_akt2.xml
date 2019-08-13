@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/usersAkt2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlo"
+    tools:context="wallpl.example.vvvlad.walltherm.UsersAkt2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@color/colorGreen"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="Wysli Email"
+                android:textColor="@color/colorWhite" />
+
+            <Button
+                android:id="@+id/zadzwon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5sp"
+                android:layout_weight="1"
+                android:background="@color/colorGreen"
+                android:fontFamily="@assets/Signika-SemiBold.ttf"
+                android:text="zadzwonić"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:gravity="center"
+                    android:text="Email" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <RadioGroup
+                        android:id="@+id/rGBtn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/rbInst"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:checked="true"
+                            android:text="Instalator" />
+
+                        <RadioButton
+                            android:id="@+id/rbHurt"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Hurtownia" />
+
+                        <RadioButton
+                            android:id="@+id/rbArh"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Architekt" />
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Imie: " />
+
+                <EditText
+                    android:id="@+id/name"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="Imie"
+                    android:inputType="textEmailAddress" />
+
+                <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Nazwisko: " />
+
+                <EditText
+                    android:id="@+id/surname"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="Nazwisko"
+                    android:inputType="" />
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Firma: " />
+
+                <EditText
+                    android:id="@+id/firma"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="Firma"
+                    android:inputType="" />
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="NIP: " />
+
+                <EditText
+                    android:id="@+id/nip"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="NIP"
+                    android:inputType="number" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Miasto: " />
+
+                <EditText
+                    android:id="@+id/miasto"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="Miasto"
+                    android:inputType="" />
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Ulica: " />
+
+                <EditText
+                    android:id="@+id/ulica"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="Ulica"
+                    android:inputType="" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:text="Telefon: " />
+
+                <EditText
+                    android:id="@+id/telefon"
+                    android:layout_width="340dp"
+                    android:layout_height="40dp"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@assets/Signika-SemiBold.ttf"
+                    android:hint="Telefon"
+                    android:inputType="number" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="4"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="Do nieakt"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="do Aktyw"
+                        android:textColor="@color/colorWhite" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="5sp"
+                        android:background="@color/colorOrange"
+                        android:fontFamily="@assets/Signika-SemiBold.ttf"
+                        android:text="zapisz"
+                        android:textColor="@color/colorWhite" />
+
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

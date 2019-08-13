@@ -1,0 +1,169 @@
+ <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/colorWhite"
+            android:paddingTop="10dp">
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/textView1"
+                android:layout_marginStart="17dp"
+                android:hint="name"
+                android:inputType="textEmailAddress" />
+
+
+            <EditText
+                android:id="@+id/nazwisko"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/textView2"
+                android:hint="nazwisko"
+                android:inputType="" />
+
+            <EditText
+                android:id="@+id/firma"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/textView3"
+                android:hint="firma"
+                android:inputType="" />
+
+            <EditText
+                android:id="@+id/nip"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/textView4"
+                android:hint="NIP"
+                android:inputType="" />
+
+            <EditText
+                android:id="@+id/miasto"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/textView5"
+                android:hint="miasto"
+
+                android:inputType="" />
+
+            <EditText
+                android:id="@+id/ulica"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/textView6"
+                android:hint="ulica"
+                android:inputType="" />
+
+            <EditText
+                android:id="@+id/telefon"
+                android:layout_width="340dp"
+                android:layout_height="40dp"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/textView7"
+                android:hint="telefon"
+                android:inputType="" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignStart="@+id/firma"
+                android:layout_marginTop="56dp"
+                android:text="Imie: " />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/name"
+                android:text="Nazwisko: " />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/nazwisko"
+                android:text="Firma: " />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/firma"
+                android:text="NIP: " />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/nip"
+                android:text="Miasto: " />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/miasto"
+                android:text="Ulica: " />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/name"
+                android:layout_below="@+id/ulica"
+                android:text="Telefon: " />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="258dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:text="Email"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/button9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView1"
+                android:layout_alignEnd="@+id/name"
+                android:layout_marginBottom="-56dp"
+                android:text="Wysli Email" />
+
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginBottom="25dp"
+                android:text="Do nieakt" />
+
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/button11"
+                android:text="zapisz" />
+
+
+        </RelativeLayout>
